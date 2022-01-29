@@ -8,3 +8,9 @@ body{
 p{
     font-size: 20px;
 }
+
+.media{
+    color: aqua;
+    text-decoration: none;
+    font-weight: bold;
+}
