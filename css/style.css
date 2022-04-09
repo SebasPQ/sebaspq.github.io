@@ -7,21 +7,19 @@ body{
     background-size: 300% 300%;
     background-image: linear-gradient(
         45deg,
-        rgb(12, 105, 158) 0%, 
-        rgb(65, 90, 216) 33%, 
-        rgba(152,68,183,1) 66%, 
-        rgba(255,53,127,1) 100%
+        rgb(0, 102, 185) 0%, 
+        rgb(17, 76, 153) 33%, 
+        rgb(97, 41, 161)  66%, 
+        rgb(133, 46, 155) 100%
     );
     animation: BGcolor 15s ease-in-out infinite;
 }
 
 @keyframes BGcolor{
     0%{background-position:top left}
-    20%{background-position:top right}
-    40%{background-position:center center}
-    50%{background-position:bottom left}
-    60%{background-position:bottom right}
-    80%{background-position:center center}
+    25%{background-position:top right}
+    50%{background-position:bottom right}
+    75%{background-position:bottom left}
     100%{background-position:top left}
 }
 
