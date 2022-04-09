@@ -1,8 +1,22 @@
+html, body { margin: 0; min-height: 100%; }
 body{
     color: white;
     font-family: sans-serif;
-    background-color: rgba(35, 32, 223, 0.85);
     text-align: center;
+    background: linear-gradient(
+        -45deg,
+        rgba(59,173,227,1) 0%, 
+        rgba(87,111,230,1) 33%, 
+        rgba(152,68,183,1) 66%, 
+        rgba(255,53,127,1) 100%
+    );
+    animation: BGcolor 8s ease infinite alternate;
+}
+
+@keyframes BGcolor {
+    0%{background-position: 0% 50%}
+    50%{background-position: 100% 50%}
+    100%{background-position: 0% 50%}
 }
 
 p{
